@@ -56,8 +56,8 @@ for uid, message in all_messages:
 	message.headers
 	message.message_id
 	message.date
-	message.body.plain
-	message.body.html
+	message.body['plain']
+	message.body['html']
 	message.attachments
 
 # To check all available keys
